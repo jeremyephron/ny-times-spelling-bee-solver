@@ -90,7 +90,7 @@ bool fileExists(const std::string &filename);
  * Function: isValidWord
  * ---------------------
  * Checks whether a word is valid for the spelling be game.
- * 
+ *
  * Validity is comprised of the following:
  *     1) Length > 4
  *     2) Contains middle character
@@ -110,11 +110,11 @@ int main() {
 
     std::unordered_set<char> letters;
     char middle = getLettersFromUser(letters);
-    
+
     std::vector<std::string> result;
     size_t nWordsFound = solveSpellingBee(letters, middle, dictionary, result);
 
-    std::cout << rnWordsFound << " words found! Would you like to "
+    std::cout << nWordsFound << " words found! Would you like to "
                                  "save them to a file? (y/n): ";
 
     std::string line;
