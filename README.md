@@ -1,4 +1,4 @@
-# Spelling Bee Solver
+# NY Times Spelling Bee Solver
 
 In an effort to convince people that certain tasks are better left to our machine overlords, this is a simple program I wrote to solve the NY Times online puzzle Spelling Bee (more information can be found at https://www.nytimes.com/puzzles/spelling-bee) and because apparently I have too much time on my hands.
 
